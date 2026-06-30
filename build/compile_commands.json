@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\main.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\main.cpp",
+  "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/main.cpp",
+  "output": "CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build/CMakeFiles/MyRaylibProject.dir
+C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build/CMakeFiles/edit_cache.dir
+C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build/CMakeFiles/rebuild_cache.dir
