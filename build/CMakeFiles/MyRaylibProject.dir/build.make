@@ -72,6 +72,7 @@ CMakeFiles/MyRaylibProject.dir/codegen:
 .PHONY : CMakeFiles/MyRaylibProject.dir/codegen
 
 CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
 CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/main.cpp
 CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj"
@@ -85,20 +86,122 @@ CMakeFiles/MyRaylibProject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\main.cpp -o CMakeFiles\MyRaylibProject.dir\src\main.cpp.s
 
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/Game.cpp
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\game\Game.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\game\Game.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\Game.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\Game.cpp > CMakeFiles\MyRaylibProject.dir\src\game\Game.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\Game.cpp -o CMakeFiles\MyRaylibProject.dir\src\game\Game.cpp.s
+
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/GameState.cpp
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\game\GameState.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\game\GameState.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\GameState.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\GameState.cpp > CMakeFiles\MyRaylibProject.dir\src\game\GameState.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\game\GameState.cpp -o CMakeFiles\MyRaylibProject.dir\src\game\GameState.cpp.s
+
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Camera.cpp
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\states\Camera.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\states\Camera.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Camera.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Camera.cpp > CMakeFiles\MyRaylibProject.dir\src\states\Camera.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Camera.cpp -o CMakeFiles\MyRaylibProject.dir\src\states\Camera.cpp.s
+
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Menu.cpp
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\states\Menu.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\states\Menu.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Menu.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Menu.cpp > CMakeFiles\MyRaylibProject.dir\src\states\Menu.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Menu.cpp -o CMakeFiles\MyRaylibProject.dir\src\states\Menu.cpp.s
+
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Office.cpp
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\states\Office.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\states\Office.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Office.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Office.cpp > CMakeFiles\MyRaylibProject.dir\src\states\Office.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\Office.cpp -o CMakeFiles\MyRaylibProject.dir\src\states\Office.cpp.s
+
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj: CMakeFiles/MyRaylibProject.dir/flags.make
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj: CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj: C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/GameOver.cpp
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj: CMakeFiles/MyRaylibProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj -MF CMakeFiles\MyRaylibProject.dir\src\states\GameOver.cpp.obj.d -o CMakeFiles\MyRaylibProject.dir\src\states\GameOver.cpp.obj -c C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\GameOver.cpp
+
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\GameOver.cpp > CMakeFiles\MyRaylibProject.dir\src\states\GameOver.cpp.i
+
+CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\src\states\GameOver.cpp -o CMakeFiles\MyRaylibProject.dir\src\states\GameOver.cpp.s
+
 # Object files for target MyRaylibProject
 MyRaylibProject_OBJECTS = \
-"CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj"
+"CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj" \
+"CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj"
 
 # External object files for target MyRaylibProject
 MyRaylibProject_EXTERNAL_OBJECTS =
 
 MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj
+MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj
 MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/build.make
 MyRaylibProject.exe: C:/msys64/ucrt64/lib/libraylib.dll.a
 MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/linkLibs.rsp
 MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/objects1.rsp
 MyRaylibProject.exe: CMakeFiles/MyRaylibProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyRaylibProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MyRaylibProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyRaylibProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

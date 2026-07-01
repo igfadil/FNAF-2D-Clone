@@ -84,12 +84,12 @@ clean: CMakeFiles/MyRaylibProject.dir/clean
 CMakeFiles/MyRaylibProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=1,2 "Built target MyRaylibProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MyRaylibProject"
 .PHONY : CMakeFiles/MyRaylibProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyRaylibProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MyRaylibProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles 0
 .PHONY : CMakeFiles/MyRaylibProject.dir/rule
@@ -101,7 +101,7 @@ MyRaylibProject: CMakeFiles/MyRaylibProject.dir/rule
 # codegen rule for target.
 CMakeFiles/MyRaylibProject.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=1,2 "Finished codegen for target MyRaylibProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\fadil\OneDrive\Desktop\codeProjects\FNAF-2D-Clone\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target MyRaylibProject"
 .PHONY : CMakeFiles/MyRaylibProject.dir/codegen
 
 # clean rule for target.

@@ -1,28 +1,22 @@
 #include <raylib.h>
 
+#include "GameState.h"
+#include "states/Office.h"
+#include "states/Camera.h"
+#include "states/Menu.h"
+#include "states/GameOver.h"
+
 
 const int WIDTH = 600;
 const int HEIGHT = 900;
 
-//Gamestates
-enum class Gamestate {
-    OFFICE,
-    CAMERA,
-    MENU,
-    GAMEOVER
-};
 
-//Helper functions
-void CreateCenteredTitleX(const char* text, int fontSize, int posY, Color color) {
-    int textLength = MeasureText(text, fontSize);
-    DrawText(text, WIDTH - textLength / 2, posY, fontSize, color);
-}
-
-int main() {
+int main()
+{
     InitWindow(WIDTH, HEIGHT, "FNAF Clone");
     SetExitKey(KEY_NULL);
 
-    Gamestate::OFFICE;
+    GAMESTATE gameState = OFFICE;
 
     while(!WindowShouldClose()) {
         BeginDrawing();

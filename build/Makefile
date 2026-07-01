@@ -135,6 +135,54 @@ MyRaylibProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/build
 .PHONY : MyRaylibProject/fast
 
+src/game/Game.obj: src/game/Game.cpp.obj
+.PHONY : src/game/Game.obj
+
+# target to build an object file
+src/game/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj
+.PHONY : src/game/Game.cpp.obj
+
+src/game/Game.i: src/game/Game.cpp.i
+.PHONY : src/game/Game.i
+
+# target to preprocess a source file
+src/game/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.i
+.PHONY : src/game/Game.cpp.i
+
+src/game/Game.s: src/game/Game.cpp.s
+.PHONY : src/game/Game.s
+
+# target to generate assembly for a file
+src/game/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.s
+.PHONY : src/game/Game.cpp.s
+
+src/game/GameState.obj: src/game/GameState.cpp.obj
+.PHONY : src/game/GameState.obj
+
+# target to build an object file
+src/game/GameState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj
+.PHONY : src/game/GameState.cpp.obj
+
+src/game/GameState.i: src/game/GameState.cpp.i
+.PHONY : src/game/GameState.i
+
+# target to preprocess a source file
+src/game/GameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.i
+.PHONY : src/game/GameState.cpp.i
+
+src/game/GameState.s: src/game/GameState.cpp.s
+.PHONY : src/game/GameState.s
+
+# target to generate assembly for a file
+src/game/GameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.s
+.PHONY : src/game/GameState.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -159,6 +207,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/states/Camera.obj: src/states/Camera.cpp.obj
+.PHONY : src/states/Camera.obj
+
+# target to build an object file
+src/states/Camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj
+.PHONY : src/states/Camera.cpp.obj
+
+src/states/Camera.i: src/states/Camera.cpp.i
+.PHONY : src/states/Camera.i
+
+# target to preprocess a source file
+src/states/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.i
+.PHONY : src/states/Camera.cpp.i
+
+src/states/Camera.s: src/states/Camera.cpp.s
+.PHONY : src/states/Camera.s
+
+# target to generate assembly for a file
+src/states/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.s
+.PHONY : src/states/Camera.cpp.s
+
+src/states/GameOver.obj: src/states/GameOver.cpp.obj
+.PHONY : src/states/GameOver.obj
+
+# target to build an object file
+src/states/GameOver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj
+.PHONY : src/states/GameOver.cpp.obj
+
+src/states/GameOver.i: src/states/GameOver.cpp.i
+.PHONY : src/states/GameOver.i
+
+# target to preprocess a source file
+src/states/GameOver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.i
+.PHONY : src/states/GameOver.cpp.i
+
+src/states/GameOver.s: src/states/GameOver.cpp.s
+.PHONY : src/states/GameOver.s
+
+# target to generate assembly for a file
+src/states/GameOver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.s
+.PHONY : src/states/GameOver.cpp.s
+
+src/states/Menu.obj: src/states/Menu.cpp.obj
+.PHONY : src/states/Menu.obj
+
+# target to build an object file
+src/states/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj
+.PHONY : src/states/Menu.cpp.obj
+
+src/states/Menu.i: src/states/Menu.cpp.i
+.PHONY : src/states/Menu.i
+
+# target to preprocess a source file
+src/states/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.i
+.PHONY : src/states/Menu.cpp.i
+
+src/states/Menu.s: src/states/Menu.cpp.s
+.PHONY : src/states/Menu.s
+
+# target to generate assembly for a file
+src/states/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.s
+.PHONY : src/states/Menu.cpp.s
+
+src/states/Office.obj: src/states/Office.cpp.obj
+.PHONY : src/states/Office.obj
+
+# target to build an object file
+src/states/Office.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj
+.PHONY : src/states/Office.cpp.obj
+
+src/states/Office.i: src/states/Office.cpp.i
+.PHONY : src/states/Office.i
+
+# target to preprocess a source file
+src/states/Office.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.i
+.PHONY : src/states/Office.cpp.i
+
+src/states/Office.s: src/states/Office.cpp.s
+.PHONY : src/states/Office.s
+
+# target to generate assembly for a file
+src/states/Office.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.s
+.PHONY : src/states/Office.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -169,9 +313,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MyRaylibProject
+	@echo ... src/game/Game.obj
+	@echo ... src/game/Game.i
+	@echo ... src/game/Game.s
+	@echo ... src/game/GameState.obj
+	@echo ... src/game/GameState.i
+	@echo ... src/game/GameState.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/states/Camera.obj
+	@echo ... src/states/Camera.i
+	@echo ... src/states/Camera.s
+	@echo ... src/states/GameOver.obj
+	@echo ... src/states/GameOver.i
+	@echo ... src/states/GameOver.s
+	@echo ... src/states/Menu.obj
+	@echo ... src/states/Menu.i
+	@echo ... src/states/Menu.s
+	@echo ... src/states/Office.obj
+	@echo ... src/states/Office.i
+	@echo ... src/states/Office.s
 .PHONY : help
 
 
