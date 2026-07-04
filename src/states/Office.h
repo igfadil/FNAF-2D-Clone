@@ -1,6 +1,6 @@
 #pragma once
 
-#include "game/GameState.h"
+#include "game/Game.h"
 
-void UpdateOffice(GAMESTATE &gameState);
-void DrawOffice();
+void UpdateOffice(Game &game);
+void DrawOffice(const Game &game);

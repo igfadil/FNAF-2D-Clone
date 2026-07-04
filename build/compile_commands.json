@@ -1,44 +1,50 @@
 [
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\main.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\main.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\main.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/main.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\game\\Game.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\game\\Game.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\game\\Game.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\game\\Game.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/Game.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\game\\GameState.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\game\\GameState.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\game\\GameState.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\game\\GameState.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/GameState.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Camera.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Camera.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Camera.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Camera.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Camera.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/states/Camera.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Menu.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Menu.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Menu.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Menu.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Menu.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/states/Menu.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Office.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Office.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\Office.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\Office.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/Office.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/states/Office.cpp.obj"
 },
 {
   "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\GameOver.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\GameOver.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\states\\GameOver.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\states\\GameOver.cpp",
   "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/states/GameOver.cpp",
   "output": "CMakeFiles/MyRaylibProject.dir/src/states/GameOver.cpp.obj"
+},
+{
+  "directory": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\MyRaylibProject.dir\\src\\HelperFuncs.cpp.obj -c C:\\Users\\fadil\\OneDrive\\Desktop\\codeProjects\\FNAF-2D-Clone\\src\\HelperFuncs.cpp",
+  "file": "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/HelperFuncs.cpp",
+  "output": "CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj"
 }
 ]

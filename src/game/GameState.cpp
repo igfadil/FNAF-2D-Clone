@@ -1,51 +1,50 @@
-#include "GameState.h"
-
 #include "game/GameState.h"
+#include "game/Game.h"
 #include "states/Camera.h"
 #include "states/Office.h"
 #include "states/Menu.h"
 #include "states/GameOver.h"
 
-void UpdateGameState(GAMESTATE &gameState)
+void UpdateGameState(Game &game)
 {
-    switch (gameState)
+    switch (game.gameState)
     {
         case OFFICE:
-            UpdateOffice(gameState);
+            UpdateOffice(game);
             break;
 
         case CAMERA:
-            UpdateCamera(gameState);
+            UpdateCamera(game);
             break;
 
         case MENU:
-            UpdateMenu(gameState);
+            UpdateMenu(game);
             break;
 
         case GAMEOVER:
-            UpdateGameOver(gameState);
+            UpdateGameOver(game);
             break;
     }
 }
 
-void DrawGameState(GAMESTATE gameState)
+void DrawGameState(Game &game)
 {
-    switch (gameState)
+    switch (game.gameState)
     {
         case OFFICE:
-            DrawOffice();
+            DrawOffice(game);
             break;
 
         case CAMERA:
-            DrawCamera();
+            DrawCamera(game);
             break;
 
         case MENU:
-            DrawMenu();
+            DrawMenu(game);
             break;
 
         case GAMEOVER:
-            DrawGameOver();
+            DrawGameOver(game);
             break;
     }
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "game/GameState.h"
+#include "game/Game.h"
 
-void UpdateCamera(GAMESTATE &gameState);
-void DrawCamera();
+void UpdateCamera(Game &game);
+void DrawCamera(const Game &game);

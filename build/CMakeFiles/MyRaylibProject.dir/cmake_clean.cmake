@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj"
+  "CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj.d"
   "CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj"
   "CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj.d"
   "CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj"

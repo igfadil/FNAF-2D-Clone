@@ -1,6 +1,7 @@
 #pragma once
 
-#include "game/GameState.h"
+#include "game/Game.h"
 
-void UpdateGameOver(GAMESTATE &gameState);
-void DrawGameOver();
+void UpdateGameOver(Game &game);
+void RestartGame(Game &game);
+void DrawGameOver(const Game &game);

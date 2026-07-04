@@ -1,26 +1,25 @@
 #include <raylib.h>
 
-#include "GameState.h"
+#include "game/GameState.h"
+#include "game/Game.h"
 #include "states/Office.h"
 #include "states/Camera.h"
 #include "states/Menu.h"
 #include "states/GameOver.h"
 
-
-const int WIDTH = 600;
-const int HEIGHT = 900;
-
-
 int main()
 {
-    InitWindow(WIDTH, HEIGHT, "FNAF Clone");
+    Game game;
+    InitWindow(game.width, game.height, "FNAF Clone");
     SetExitKey(KEY_NULL);
 
-    GAMESTATE gameState = OFFICE;
 
-    while(!WindowShouldClose()) {
+    while(!WindowShouldClose() && !game.shouldQuit) {
         BeginDrawing();
         ClearBackground(BLACK);
+
+        game.Update();
+        game.Draw();
 
         EndDrawing();
     }

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/HelperFuncs.cpp" "CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj" "gcc" "CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj.d"
   "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/Game.cpp" "CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj" "gcc" "CMakeFiles/MyRaylibProject.dir/src/game/Game.cpp.obj.d"
   "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/game/GameState.cpp" "CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj" "gcc" "CMakeFiles/MyRaylibProject.dir/src/game/GameState.cpp.obj.d"
   "C:/Users/fadil/OneDrive/Desktop/codeProjects/FNAF-2D-Clone/src/main.cpp" "CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MyRaylibProject.dir/src/main.cpp.obj.d"

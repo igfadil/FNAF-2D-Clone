@@ -1,6 +1,6 @@
 #pragma once
 
-#include "game/GameState.h"
+#include "game/Game.h"
 
-void UpdateMenu(GAMESTATE &gameState);
-void DrawMenu();
+void UpdateMenu(Game &game);
+void DrawMenu(const Game &game);

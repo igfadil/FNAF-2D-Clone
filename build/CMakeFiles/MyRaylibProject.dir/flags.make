@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/MyRaylibProject.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include
+CXX_FLAGS = -std=gnu++17 -IC:/msys64/ucrt64/bin/../include
 

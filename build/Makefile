@@ -135,6 +135,30 @@ MyRaylibProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/build
 .PHONY : MyRaylibProject/fast
 
+src/HelperFuncs.obj: src/HelperFuncs.cpp.obj
+.PHONY : src/HelperFuncs.obj
+
+# target to build an object file
+src/HelperFuncs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.obj
+.PHONY : src/HelperFuncs.cpp.obj
+
+src/HelperFuncs.i: src/HelperFuncs.cpp.i
+.PHONY : src/HelperFuncs.i
+
+# target to preprocess a source file
+src/HelperFuncs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.i
+.PHONY : src/HelperFuncs.cpp.i
+
+src/HelperFuncs.s: src/HelperFuncs.cpp.s
+.PHONY : src/HelperFuncs.s
+
+# target to generate assembly for a file
+src/HelperFuncs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyRaylibProject.dir\build.make CMakeFiles/MyRaylibProject.dir/src/HelperFuncs.cpp.s
+.PHONY : src/HelperFuncs.cpp.s
+
 src/game/Game.obj: src/game/Game.cpp.obj
 .PHONY : src/game/Game.obj
 
@@ -313,6 +337,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MyRaylibProject
+	@echo ... src/HelperFuncs.obj
+	@echo ... src/HelperFuncs.i
+	@echo ... src/HelperFuncs.s
 	@echo ... src/game/Game.obj
 	@echo ... src/game/Game.i
 	@echo ... src/game/Game.s

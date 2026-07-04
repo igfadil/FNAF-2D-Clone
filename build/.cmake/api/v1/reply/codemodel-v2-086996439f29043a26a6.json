@@ -7,7 +7,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "raylib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-raylib-Debug-df6779d62f0c43884f77.json",
+					"jsonFile" : "target-raylib-df6779d62f0c43884f77.json",
 					"name" : "raylib",
 					"projectIndex" : 0
 				}
@@ -20,7 +20,7 @@
 						0
 					],
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"jsonFile" : "directory-.-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "4.3.3"
@@ -33,7 +33,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -57,7 +57,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MyRaylibProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MyRaylibProject-Debug-c717bd128a239565ebb9.json",
+					"jsonFile" : "target-MyRaylibProject-a7841fec6cdcd318bc6b.json",
 					"name" : "MyRaylibProject",
 					"projectIndex" : 0
 				}

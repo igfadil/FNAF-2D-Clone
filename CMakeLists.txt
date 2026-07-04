@@ -16,6 +16,7 @@ add_executable(MyRaylibProject
     src/states/Menu.cpp
     src/states/Office.cpp
     src/states/GameOver.cpp
+    src/HelperFuncs.cpp
 )
 
 target_include_directories(MyRaylibProject PRIVATE src)
